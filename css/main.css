@@ -14,22 +14,39 @@ body {
 }
 
 .banner {
+  position: relative;
   background-color: #2b3851;
 }
 
 .robot {
   width: 320px;
+  height: 240px;
 }
 
 .robot-body {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  display: block;
   width: 320px;
 }
 
 .robot-brain {
+  left: 50%;
+  transform: translate(-50%);
+  top: 23%;
+  position: absolute;
   width: 46px;
+}
+
+.robot:hover .robot-brain {
+  top: 15%;
 }
 
 .robot-head-right,
 .robot-head-left {
+  position: absolute;
+  top: 7%;
   width: 125px;
 }
