@@ -50,3 +50,21 @@ body {
   top: 7%;
   width: 125px;
 }
+
+.robot-head-right {
+  left: 50%;
+}
+
+.robot:hover .robot-head-right {
+  left: 55%;
+  top: 5%;
+}
+
+.robot-head-left {
+  right: 50%;
+}
+
+.robot:hover .robot-head-left {
+  right: 55%;
+  top: 5%;
+}
